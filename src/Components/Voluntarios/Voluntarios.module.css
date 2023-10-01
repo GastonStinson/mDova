@@ -1,0 +1,13 @@
+.mainVoluntarios {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem;
+    background-color: rgb(126, 162, 231);
+    height: 20vh;
+    align-items: center;
+}
+
+.mainVoluntarios p { 
+    width: 45%;
+    
+}

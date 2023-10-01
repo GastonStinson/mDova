@@ -1,0 +1,125 @@
+{
+    "propuestas": [
+      {
+        "id": 1,
+        "titulo": "AMBIENTE",
+        "cuerpo" : [
+            "Implementaremos un sistema de contenerización doble, en toda la Ciudad, para que cada vecina y vecino pueda separar en origen sus residuos domiciliarios.",
+            "Potenciaremos el funcionamiento de la Planta de Tratamiento, para la clasificación de los residuos, haciendo parte del proceso a las y los recuperadores urbanos, facilitando su tarea y generando más fuentes de trabajo.",
+            "Haremos especial hincapié en el control de la disposición final de los residuos sólidos urbanos, con políticas que privilegien principios de ingeniería sanitaria a fin de evitar riesgos y daños a la salud pública y el ambiente.",
+            "Vamos a iniciar un proceso de forestación planificada, acorde al perfil urbano de la ciudad permite mitigar fenómenos de impacto negativo, para ello vamos a plantar más de 10.000 árboles por año, privilegiando especies vegetales nativas en cada barrio y nuevos corredores verdes.",
+            "Vamos a crear cuadrillas de poda, las que estarán estratégicamente distribuidas por sectores de la ciudad.",
+            "Diseñaremos e implementaremos un sistema de información y gestión, para un moderno manejo y planificación del Sistema de Arbolado Público Urbano.",
+            "Crearemos una app para denunciar, georreferenciar y gestionar soluciones ante la generación de microbasurales, la falta de recolección de residuos, la suciedad en las calles y la falta de mantenimiento de los espacios públicos. Los datos ingresados a la app generarán el Mapa Municipal de la Basura, que será virtual y de acceso público y que tendrá por objetivo visualizar en tiempo real la problemática de los residuos en la ciudad y generar el seguimiento del reclamo hasta su efectiva solución."
+        ],
+        "imagen": "./../../assets/1.JPG"
+    },
+    {
+        "id": 2,
+        "titulo":"SEGURIDAD",
+        "cuerpo" : [
+            "Pondremos en marcha aplicación informática para dispositivos móviles de seguridad urbana, para mejorar tu seguridad personal en cualquier situación de riesgo o peligro. Esta aplicación permitirá que efectúes llamadas y/o mensajes de emergencias, en las que se obtendrá tu ubicación para una localización y rastreo inmediatos, a partir de la Central de Monitoreo Municipal.",
+            "Implementaremos patrullajes preventivos comunitarios que realizarán rondas de vigilancia por distintos puntos de la ciudad, las 24 horas los 365 días del año.",
+            "Continuaremos con el programa de alarmas comunitarias, persiguiendo que el mismo abarque cada barrio de nuestra ciudad.",
+            "Duplicaremos la cantidad de cámaras de seguridad instaladas en distintos puntos de nuestra ciudad, lo que permitirá en tiempo real prevenir y actuar frente a la comisión de hechos delictivos.",
+            "Mediante la firma de convenios con las empresas privadas de seguridad, incorporaremos a nuestras rondas de vigilancia y patrullaje municipal, la presencia de las unidades vehiculares de las empresas privadas de seguridad, quienes también colaborarán con su presencia en las calles y las tareas de prevención y anticipo de hechos delictivos.",
+            "Profundizaremos y mejoraremos la Central de Monitoreo Municipal brindándole mayor tecnología y mayor cantidad de personal que permita un monitoreo 24 horas, los 365 días del año."
+        ],
+        "imagen": "./2.JPG"
+    },
+    {
+        "id":3,
+        "titulo":"TRANSPORTE PÚBLICO", 
+        "cuerpo" : [
+            "Vamos a extender el horario nocturno de circulación de los colectivos, con el objetivo de garantizar mayor acceso al servicio de todos los ciudadanos y ciudadanas.",
+            "Realizaremos un relevamiento y mejora de todas las paradas de colectivo existentes, para que las mismas sean accesibles y seguras.",
+            "Implementaremos un reempadronamiento obligatorio para taxis y remises, que se instrumentará de manera digital y que le permitirá al municipio contar con una base de datos actualizada de choferes y unidades. Con esta información generaremos una aplicación informática para dispositivos móviles que se traducirá en un código QR por unidad, que le permitirá a los usuarios tener acceso directo, no solo a la información y datos del/la chofer y unidad, sino además realizar una calificación del servicio recibido, pudiendo evaluar distintos aspectos, por ejemplo, el trato recibido, el tipo de conducción, la limpieza del vehículo, estado general de la unidad, disponibilidad de distintos medios de pago, entre otros."
+        ],
+        "imagen": "./8.JPG"
+    },
+    {
+        "id": 4,
+        "titulo":"VIVIENDA",
+        "cuerpo": [
+            "Vamos a continuar con la política de venta subsidiada de lotes para trabajadores y trabajadoras del sector formal e informal, que no pueden obtener un crédito.",
+            "Vamos a implementar un plan de autoconstrucción de viviendas, con materiales subsidiados.",
+            "Crearemos la oficina de información para inquilinos y propietarios para ofrecer información sobre normativas vigentes en materia de alquileres, programas y subsidios.",
+            "Implementaremos un registro municipal de alquileres de vivienda permanente para gestionar y brindar información a los vecinos y vecinas."
+        ],
+        "imagen": "./9.JPG"
+    },
+    {
+        "id": 5,
+        "titulo": "ACCESIBILIDAD",
+        "cuerpo": [
+            "Se planteará un sistema de construcción de rampas y control de las existentes.",
+            "Haremos de la obligación de cada frentista de mantener limpias y arregladas las veredas de la ciudad una política de Estado.",
+            "Se creará un Programa de Empleo y Emprendedurismo para personas con discapacidad con el fin de mejorar los mecanismos de acceso al trabajo formal a través de la articulación con empresas, universidades y organizaciones sociales.",
+            "Se instaurará Un Pase Cultural Para Las Personas Con Discapacidad Y Adultos Mayores para todos los eventos que se lleven adelante en nuestra ciudad.",
+            "Crearemos de un Programa De Inclusión Para Personas Con Discapacidad Visual Y Auditiva que capacitará en lenguaje de señas y sistema braile a diferentes actores de distintos ámbitos de nuestra comunidad, con el objetivo de resolver los requerimientos de nuestros vecinos y vecinas. Se invitará a distintas instituciones educativas para participar."
+        ],
+        "imagen": "./22.JPG"
+    },
+    {
+        "id": 6,
+        "titulo":"TRANSITO",
+        "cuerpo": [
+            "Haremos del tránsito una política de estado integral, que propenderá a una cultura de la responsabilidad individual de conductores, mediante el reordenamiento, la prevención, el control y la sanción del contraventor.",
+            "Implementaremos la colocación de señalética sonora para no videntes en distintas arterias de la vía pública de nuestra ciudad.",
+            "Reordenaremos interferencias en el tránsito a través de un sistema inteligente de estacionamiento, esto permitirá sumar a la actual aplicación SEM Río Cuarto (parquímetros) la detección en tiempo real de espacios disponibles para estacionar y penalización de la duración de la estadía en zonas de alta demanda, priorizando la actividad económica (comercios, gastronomía y esparcimiento)."
+        ],
+        "imagen": "./29.JPG"
+    },
+    {
+        "id": 7,
+        "titulo":"SALUD",
+        "cuerpo": [
+            "Crearemos el Programa Dispensario Eficiente, que permitirá transformar nuestros actuales dispensarios en dispensarios eficientes, que garanticen sin excepción la atención médica de lunes a sábados de 08:00 a 01:00 horas, implementando el SUT (Sistema Único de Turnos).",
+            "Se garantizará la atención en distintas especialidades médicas.",
+            "Crearemos Centros de Día, para el tratamiento de adicciones y contención de los jóvenes con distintas problemáticas derivadas del consumo de sustancias y afecciones de índole mental.",
+            "Implementaremos terapias grupales y familiares en todos los Centros Integradores Municipales, como espacios de apoyo y complemento a las terapias individuales.",
+            "Propenderemos a la elaboración de programas de colaboración con Centros de Estudios Universitarios, para que jóvenes profesionales en carreras de psicología o cercanos a recibirse, puedan colaborar con las tareas de contención en materia de adicciones y salud mental."
+        ],
+        "imagen": "./31.JPG"
+    },
+    {
+        "id": 8,
+        "titulo": "MUNICIPIO EFICIENTE",
+        "cuerpo": [
+            "Para una gestión eficiente de los Recursos Humanos crearemos una aplicación informática para dispositivos móviles para controlar el tiempo de desempeño profesional de cada agente municipal. Esto permitirá administrar las solicitudes laborales como vacaciones, permisos, faltas que realizan los empleados, generará órdenes de trabajo digitales, medirá puntualidad y asistencia en tiempo real, recibirá alertas y reportes para tomar decisiones en el momento, mejorará la productividad y la localización vía GPS de los empleados, evitará el fraude durante los fichajes con fotografía en las marcaciones, mejorará la comunicación unificando el canal, enviará mensajes instantáneos ilimitados a grupos o a usuarios individuales."
+        ],
+        "imagen": "./32.JPG"
+    },
+    {
+        "id": 9,
+        "titulo":"EDUCACIÓN",
+        "cuerpo": [
+            "Continuaremos y profundizaremos todos los programas municipales que se llevan adelante en materia de Educación, los Jardines Maternales, Alfabetización, Apoyo Escolar Comunitario, Extensión de Jornada Socio Educativa, Programa Municipal de Ajedrez y Escuela de Carpintería.",
+            "Fomentaremos las escuelas de oficios, para que los y las jóvenes a corta edad puedan empezar a incorporar conocimientos sobre determinados oficios e insertarse luego de la debida capacitación, en el ámbito laboral."
+        ],
+        "imagen": "./33.JPG"
+    },
+    {
+        "id": 10,
+        "titulo":"ADULTOS MAYORES",
+        "cuerpo": [
+            "Crearemos el programa ASIPAM que consistirá en capacitar a adultos mayores en el manejo de dispositivos móviles, computadoras y tablets y medidas de seguridad en su manejo. Esto ayudará a resolver problemáticas diarias de los adultos mayores, desde la concurrencia a cajeros, realización de transferencias, homebanking, turnos médicos on line, compra de medicamentos y estacionamiento medido, entre otros.",
+            "Implementaremos un Pase Cultural Para Las Personas Adultas Mayores para todos los eventos que se lleven adelante en nuestra ciudad.",
+            "Aseguraremos el cumplimiento de la normativa vigente en materia de accesibilidad, mediante la construcción de más rampas y la atención prioritaria para personas adultas mayores en todos los órganos municipales.",
+            "Estableceremos un programa de emprendedurismo para personas adultas mayores que les permita desarrollar distintas actividades y reinsertarse socialmente."
+        ],
+        "imagen": "./41.JPG"
+    },
+    {
+        "id": 11,
+        "titulo":"JOVENES E INFANCIAS",
+        "cuerpo": [
+            "Fomentaremos y profundizaremos las escuelas oficios, para que los jóvenes puedan empezar a incorporar conocimientos sobre determinados oficios e insertarse luego de la debida capacitación, en el ámbito laboral.",
+            "Mejoraremos las plazas de juego infantiles, con la implementación de cercado perimetral para seguridad de las infancias y tranquilidad de los padres y madres.",
+            "Propondremos garantizar la cobertura de sala de 3 años en todas las escuelas con criterios de equidad y cercanía.",
+            "Crearemos un Registro de Cuidadores domiciliarios para los niños y niñas: personas acreditadas y capacitadas a cargo del cuidado de la primera infancia.",
+            "Fomentaremos la articulación entre clubes de barrio y centros culturales para la oferta de actividades que propicien hábitos saludables, habilidades sociales y la contención de niños, niñas y adolescentes a contraturno escolar."
+        ],
+        "imagen": "./ss.jpg"
+    }   
+]}

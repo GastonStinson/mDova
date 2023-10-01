@@ -1,0 +1,9 @@
+.mainContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carouselImage {
+    max-height: 400px;
+    object-fit: cover;
+}
