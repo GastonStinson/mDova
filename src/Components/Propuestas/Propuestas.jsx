@@ -5,14 +5,14 @@ import { NavLink } from "react-router-dom";
 function Propuestas() {
   return (
     <div className={style.mainContainer} id="propuestas">
-      <div className={style.centerContainer}>
-        <h2>Nuestras Propuestas</h2>
-        <p>Somos un equipo de profesionales apasionados...</p>
+      <h2>Nuestras Propuestas</h2>
+      <p>Somos un equipo de profesionales apasionados...</p>
+      <div className={style.carouselContainer}>
         <Carousel />
-        <NavLink to="/propuestas">
-          <button>Ver todas</button>
-        </NavLink>
       </div>
+      <NavLink to="/propuestas">
+        <button>Ver todas</button>
+      </NavLink>
     </div>
   );
 }

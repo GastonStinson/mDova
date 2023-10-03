@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     height: 88vh;
+    color: hsba(0, 0%, 28%, 1);
+    border: 1px solid black;
 }
 
 .centerContainer {
@@ -23,31 +25,35 @@
 
 .leftContainer h2 {
     font-size: 2.6rem;
+    font-weight: 700;
 }
 
-.leftContainer p {
+.leftContainer .body p {
     margin-top: 1.8rem;
+    font-weight: 400;
+}
+
+.leftContainer .body h6 {
+    font-weight: 800;
 }
 
 .socialContainer {
     display: flex;
-    border: 0.15rem solid #3c3c3b;
-    border-radius: 1.2rem;
-    justify-content: space-around;
+    justify-content: fle;
     align-items: center;
     padding: 0.1rem;
     margin-top: 2.6rem;
     width: 70%;
 }
 
-.socialContainer a:link, a:visited, a:active {
-    text-decoration:none;
-    color: #1b202e;
-    font-size: 1.4rem;
-}
-
 .socialContainer span{
     font-weight: bold;
+    font-size: x-large;
+}
+
+.socialContainer img {
+    width: 2.5rem;
+    margin: 0rem .4rem;
 }
 
 .rightContainer {

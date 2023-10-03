@@ -1,4 +1,4 @@
-import propuestas from "../../assets/propuestas.json";
+import propuestas from "../../assets/JSON/propuestas.json";
 import Card from "../../Components/Card/Card";
 
 function Propuestas() {

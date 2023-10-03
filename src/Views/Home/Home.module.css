@@ -1,4 +1,5 @@
 .contenedorHome {
     display: flex;
     flex-direction: column;
+    background: #FDFDFD;
 }

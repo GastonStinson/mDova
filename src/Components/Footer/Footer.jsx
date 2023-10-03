@@ -1,26 +1,15 @@
 import style from "./Footer.module.css";
-import imagenLogo from "./../../assets/logo.png";
+import logoSeparador from "./../../assets/logoSeparador.png";
+import RedesSociales from "./../RedesSociales/RedesSociales";
 
 function Footer() {
   return (
     <div className={style.mainFooter}>
-      <div className={style.contenedorImagen}>
-        <img src={imagenLogo} alt="logo" />
+      <div className={style.contenedorLogo}>
+        <img src={logoSeparador} alt="logo" />
       </div>
-      <div className={style.socialContainer}>
-        <a href="https://twitter.com/MauricioDova">
-          <i class="bi bi-twitter"></i>
-        </a>
-        <a href="https://www.instagram.com/mauriciodova/">
-          <i class="bi bi-instagram"></i>
-        </a>
-        <a href="https://www.facebook.com/DovaMauricio">
-          <i class="bi bi-facebook"></i>
-        </a>
-        <a href="https://mail.google.com">
-          <i class="bi bi-envelope"></i>
-        </a>
-      </div>
+      <span>SEGUINOS EN REDES</span>
+      <RedesSociales />
     </div>
   );
 }

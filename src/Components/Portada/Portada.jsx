@@ -5,7 +5,7 @@ function Portada() {
   return (
     <div className={style.mainContainer}>
       <div className={style.internContainer}>
-        <h2>Sumate al equipo de Mauricio!</h2>
+        <h2>Sumate al equipo de Mauricio</h2>
         <Link>
           <button type="button" className="btn btn-primary">
             PARTICIPÁ
