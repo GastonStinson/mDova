@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
-import style from "./Portada.module.css";
+import style from "./PortadaPropuestas.module.css";
 
-function Portada() {
+function PortadaPropuestas() {
   return (
     <div className={style.mainContainer}>
       <div className={style.internContainer}>
         <h2>¡Conocé más sobre el equipo de Mauricio!</h2>
-        <Link to="https://www.instagram.com/mauriciodova/" target="_blank">
-          <button>VISITANOS</button>
+        <Link to="https://forms.gle/Ra6yNE6WJ34anUXF7" target="_blank">
+          <button>PARTICIPÁ</button>
         </Link>
       </div>
     </div>
   );
 }
 
-export default Portada;
+export default PortadaPropuestas;

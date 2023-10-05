@@ -6,7 +6,7 @@ import imagenPropuesta from "./../../assets/30 1.png";
 
 const PropuestaCiudadana = () => {
   return (
-    <div className={style.contenedorColor}>
+    <div className={style.contenedorColor} id="vecinos">
       <div className={style.propuestaCiudadana}>
         <h3>PROPUESTA CIUDADANA</h3>
         <img src={separadorFooter} alt="" />

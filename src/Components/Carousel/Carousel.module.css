@@ -1,1 +1,27 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    border: 1px solid blueviolet;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.cardsContainer {
+    display: flex;
+}
+
+.slide {
+    transition: transform 1s ease; /* Agregar transición para suavizar el cambio */
+    transform: translateX(0);
+}
+
+.carousel button {
+    border: none;
+    background-color: inherit;
+}
+
+.centerCard {
+    transform: scale(1.12); /* Aumenta el tamaño de la tarjeta del medio */
+    /* Agrega otros estilos, como cambios en el fondo, bordes, etc., según tus preferencias */
+}
 

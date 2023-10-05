@@ -5,7 +5,7 @@
     flex-shrink: 0;
     padding: 0rem 5rem;
     height: 11vh;
-    border: 0.1rem solid grey;
+    border: 0.1rem solid blueviolet;
 }
 
 .mainContainer a:link, a:visited, a:active {
@@ -13,6 +13,11 @@
     color: #1b202e;
     font-size: 1.4rem;
 }
+
+.navContainer ul {
+    margin: 0;
+}
+
 
 .mainContainer a:hover {
     color: #2a4182;

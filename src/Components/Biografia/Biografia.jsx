@@ -1,5 +1,5 @@
 import style from "./Biografia.module.css";
-import imagenMauricio from "../../assets/32.JPG";
+import imagenMauricio from "../../assets/biografia.png";
 import RedesSociales from "../RedesSociales/RedesSociales";
 
 function Biografia() {

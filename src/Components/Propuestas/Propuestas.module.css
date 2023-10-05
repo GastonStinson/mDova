@@ -1,13 +1,17 @@
 .mainContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    height: 100vh;
+    justify-content: center;
+    padding: 3rem 2rem;
+    border: 1px solid blueviolet;
 }
 
-.carouselContainer {
-    width: 50vw;    
-    
+.buttonAll button{
+    border-radius: 3.125rem;
+    border: 2px solid #1A5366;
+    background: #1A5366;
+    color: white;
+    font-weight: 700;
+    padding: 0.8rem 1.4rem;
 }

@@ -14,7 +14,7 @@ function NavBar() {
         <div>
           <ul className={style.list}>
             <li className={style.navLink}>
-              <a href="#biografia">Biografía</a>
+              <a href="/#biografia">Biografía</a>
             </li>
             <li className={style.navLink}>
               <a href="#propuestas">Propuestas</a>
@@ -23,7 +23,7 @@ function NavBar() {
               <a href="#vecinos">Vecinos</a>
             </li>
             <li className={style.navLink}>
-              <a href="#noticias">Novedades</a>
+              <a href="#novedades">Novedades</a>
             </li>
           </ul>
         </div>

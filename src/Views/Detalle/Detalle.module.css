@@ -1,0 +1,29 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDFDFD;
+}
+
+.cuerpoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    border: 1px solid blueviolet;
+    width: 80%;
+    align-self: center;
+}
+
+.cuerpoContainer h3 {
+    align-self: center;
+    color: var(--grayscale-10, #333);
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.mainContainer h4{
+    align-self: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem;
+}

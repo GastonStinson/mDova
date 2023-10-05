@@ -30,25 +30,24 @@
 
 .leftContainer .body p {
     margin-top: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
 .leftContainer .body h6 {
     font-weight: 800;
+    font-size: 1.3rem;
 }
 
 .socialContainer {
     display: flex;
-    justify-content: fle;
     align-items: center;
-    padding: 0.1rem;
-    margin-top: 2.6rem;
-    width: 70%;
+    margin: 1rem 0rem;
 }
 
 .socialContainer span{
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.7rem;
 }
 
 .socialContainer img {

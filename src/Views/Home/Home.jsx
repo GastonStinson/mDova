@@ -1,4 +1,3 @@
-import NavBar from "../../Components/NavBar/NavBar";
 import Footer from "../../Components/Footer/Footer";
 import Biografia from "../../Components/Biografia/Biografia";
 import Portada from "../../Components/Portada/Portada";
@@ -11,7 +10,6 @@ import Novedades from "../../Components/Novedades/Novedades";
 function Home() {
   return (
     <div className={style.contenedorHome}>
-      <NavBar />
       <img src={separadorNavBar} alt="sepNavBar" />
       <Portada />
       <Biografia />
