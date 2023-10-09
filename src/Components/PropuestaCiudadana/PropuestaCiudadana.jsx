@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import style from "./PropuestaCiudadana.module.css";
 import separadorFooter from "./../../assets/separadorFooter.png";
-import imagenPropuesta from "./../../assets/30 1.png";
+import imagenPropuesta from "./../../assets/20.png";
 
 const PropuestaCiudadana = () => {
   return (
@@ -11,7 +11,7 @@ const PropuestaCiudadana = () => {
         <h3>PROPUESTA CIUDADANA</h3>
         <img src={separadorFooter} alt="" />
         <div className={style.tarjetaPropuesta}>
-          <div>
+          <div className={style.contenedorImagen}>
             <img src={imagenPropuesta} alt="propuesta" />
           </div>
           <div className={style.infoPropuesta}>

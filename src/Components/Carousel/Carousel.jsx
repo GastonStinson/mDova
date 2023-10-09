@@ -5,9 +5,9 @@ import { arrayPropuestas } from "../../assets/JS/propuestas";
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const isMobile = window.innerWidth <= 767; // Define el ancho máximo para dispositivos móviles
 
-  const cardsToShow = 3; // Número de tarjetas a mostrar a la vez
-  const transitionDuration = 1000;
+  const cardsToShow = isMobile ? 1 : 3; // Número de tarjetas a mostrar a la vez
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % arrayPropuestas.length);
@@ -47,11 +47,12 @@ function Carousel() {
         {cardsToRender.map((propuesta, index) => (
           <div
             key={index}
-            className={`${style.slide} ${index === 1 ? style.centerCard : ""}`}
+            className={`${style.slide} ${
+              index === Math.floor(cardsToShow / 2) ? style.centerCard : ""
+            }`}
             style={{
               flex: `0 0 ${100 / cardsToShow}%`,
               marginRight: index === cardsToShow - 1 ? "0" : "15px",
-              transitionDuration: `${transitionDuration}ms`,
             }}
           >
             <CardPropuestas

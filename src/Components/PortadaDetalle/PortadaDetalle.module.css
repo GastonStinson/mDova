@@ -6,9 +6,28 @@
     width: 100vw;
 }
 
-.mainContainer h2 {
+.mascaraNegra h2 {
     color: white;
-    font-size: 700;
-    font-size: 3.75rem;
+    font-size: 800;
+    font-size: 4.2rem;
+}
+
+.mascaraNegra {
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
+@media screen and (max-width: 767px) {
+    .mainContainer {
+        height: 40vh;
+        background-size: cover;
+        margin-bottom: 2rem;
+    }
+
+    .mainContainer h2 {
+        font-size: 3rem;
+    }
+}

@@ -2,16 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
     padding: 2rem;
 }
 
 .contenedorLogo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 30%;
-    border: 1px solid black;
 }
 
 .contenedorLogo img {
@@ -21,5 +16,15 @@
 .mainFooter span {
     font-weight: 700;
     font-size: 2rem;
-    padding: 1.4rem;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+    .contenedorLogo {
+        width: 53%;
+    }
+
+    .mainFooter span {
+        font-size: 1.2rem;
+    }
 }

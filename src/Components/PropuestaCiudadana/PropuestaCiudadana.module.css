@@ -4,6 +4,7 @@
     width: 96%;
     align-self: center;
     border-radius: 0.5rem;
+    margin: 2rem 0rem
 }
 
 .propuestaCiudadana {
@@ -19,22 +20,26 @@
     color: #FFF;
     font-weight: 700;
     line-height: normal;
+    justify-self: center;
+    text-align: center;
 }
 
 .tarjetaPropuesta {
     display: flex;
     border-radius: 0.5rem;
-    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.05);
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.5);
     background-color: #FFF;
     margin-top: 2rem;
+    height: 35vh;
+    width: 55vw;
 }
 
-.tarjetaPropuesta h6 {
+.infoPropuesta h6 {
     font-weight: 600;
     font-size: 1.625rem;
 }
 
-.tarjetaPropuesta p {
+.infoPropuesta p {
     font-size: 1.375rem;
     font-weight: 500;
 }
@@ -42,6 +47,11 @@
 .tarjetaPropuesta img {
     border-radius: 0.5rem 0rem 0rem 0.5rem;
 }
+
+.contenedorImagen img {
+    max-width: 100%;
+    height: 100%;
+  }
 
 .infoPropuesta {
     display: flex;
@@ -59,4 +69,40 @@
     color: #1A5366;
     font-weight: 700;
     line-height: normal;
+}
+
+.botonPropuesta button:hover {
+    transform: scale(1.04);
+}
+
+@media screen and (max-width: 767px) {
+    .contenedorColor {
+        padding: 3rem;
+    }
+    
+    .propuestaCiudadana {
+        height: 80vh;
+    }
+
+    .tarjetaPropuesta {
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+    }
+
+    .tarjetaPropuesta img {
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+
+    .infoPropuesta {
+        align-items: center;
+    }
+
+    .infoPropuesta h6 {
+        font-size: 1.4rem;
+    }
+
+    .infoPropuesta p {
+        font-size: 1.2rem;
+    }
 }

@@ -1,23 +1,49 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import CardNovedades from "../CardNovedades/CardNovedades";
 import { arrayNovedades } from "./../../assets/JS/novedades";
 import style from "./Novedades.module.css";
+import { NavLink } from "react-router-dom";
 
 const Novedades = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [cardsToShow, setCardsToShow] = useState(3);
 
-  const handleNext = () => {
-    setCurrentIndex((currentIndex + 1) % arrayNovedades.length);
-  };
+  // const totalCards = arrayNovedades.length;
 
-  const handlePrev = () => {
-    setCurrentIndex(
-      (currentIndex - 1 + arrayNovedades.length) % arrayNovedades.length
-    );
-  };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     // Verifica el ancho de la pantalla y ajusta el número de tarjetas a mostrar
+  //     if (window.innerWidth <= 767) {
+  //       setCardsToShow(1); // Pantalla pequeña
+  //     } else {
+  //       setCardsToShow(3); // Pantalla grande
+  //     }
+  //   };
+
+  //   // Agrega un listener para el evento de cambio de tamaño de la ventana
+  //   window.addEventListener("resize", handleResize);
+
+  //   // Llama a handleResize una vez para establecer el valor inicial
+  //   handleResize();
+
+  //   // Elimina el listener cuando el componente se desmonta
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize);
+  //   };
+  // }, []);
+
+  // const handleNext = () => {
+  //   setCurrentIndex((currentIndex + 1) % arrayNovedades.length);
+  // };
+
+  // const handlePrev = () => {
+  //   setCurrentIndex(
+  //     (currentIndex - 1 + arrayNovedades.length) % arrayNovedades.length
+  //   );
+  // };
 
   const visibleNovedades = [];
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < cardsToShow; i++) {
     const novedadIndex = (currentIndex + i) % arrayNovedades.length;
     visibleNovedades.push(arrayNovedades[novedadIndex]);
   }
@@ -25,9 +51,8 @@ const Novedades = () => {
   return (
     <div className={style.mainContainer} id="novedades">
       <h3>Novedades</h3>
-      <p>Somos un equipo de profesionales apasionados...</p>
       <div className={style.cardContainer}>
-        <button onClick={handlePrev}>
+        {/* <button onClick={handlePrev}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="97"
@@ -40,16 +65,17 @@ const Novedades = () => {
               fill="#E6E6E6"
             />
           </svg>
-        </button>
+        </button> */}
         {visibleNovedades.map((novedad, index) => (
           <CardNovedades
             key={index}
             imagen={novedad.imagen}
             titulo={novedad.titulo}
             cuerpo={novedad.cuerpo}
+            url={novedad.url}
           />
         ))}
-        <button onClick={handleNext}>
+        {/* <button onClick={handleNext}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="96"
@@ -62,8 +88,26 @@ const Novedades = () => {
               fill="#E6E6E6"
             />
           </svg>
-        </button>
+        </button> */}
       </div>
+      {/* <div className={style.indicatorsContainer}>
+        {Array.from({ length: totalCards }).map((_, index) => (
+          <div
+            key={index}
+            className={`${style.indicator} ${
+              currentIndex === index ? style.activeIndicator : ""
+            }`}
+            onClick={() => setCurrentIndex(index)}
+          />
+        ))}
+      </div> */}
+      <NavLink
+        to="https://www.instagram.com/mauriciodova/"
+        target="_blank"
+        className={style.finalButton}
+      >
+        <button>OTRAS NOVEDADES</button>
+      </NavLink>
     </div>
   );
 };

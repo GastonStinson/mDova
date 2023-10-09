@@ -1,15 +1,14 @@
 .mainContainer {
     display: flex;
-    background-image: url('../../assets/portada.png');
-    background-size:100vw;
+    background-image: url('../../assets/1.JPG');
+    background-size:cover;
     background-repeat: no-repeat;
     height: 88vh;
     align-items: center;
     justify-content: flex-end;
-    border: 1px solid blueviolet;
 }
 
-.mainContainer h2{
+.internContainer h2{
     color: #FFF;
     font-size: 3.5rem; 
     font-weight: 700;
@@ -23,6 +22,7 @@
     flex-direction: column;
     align-items: flex-end;
     margin: 5%;
+    width: 50%;
 }
 
 .internContainer button {
@@ -33,4 +33,23 @@
     font-weight: 700;
     margin: 2rem 0rem;
     padding: 0.7rem 2rem;
+}
+
+@media screen and (max-width: 767px) {
+    .mainContainer {
+        height: 40vh;
+        background-size: cover;
+        margin-bottom: 2rem;
+    }
+
+    .internContainer {
+        width: 100%;
+        align-items: center;
+    }
+
+    .internContainer h2 {
+        width: 100%;
+        font-size: 2.2rem;
+        text-align: center;
+    }
 }

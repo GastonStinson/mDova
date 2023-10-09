@@ -1,9 +1,11 @@
 import style from "./NavBar.module.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import imagenLogo from "./../../assets/logo.png";
 import RedesSociales from "../RedesSociales/RedesSociales";
 
 function NavBar() {
+  const location = useLocation();
+
   return (
     <div className={style.mainContainer}>
       <NavLink to="/" className={style.contenedorImagen}>
@@ -11,22 +13,30 @@ function NavBar() {
       </NavLink>
 
       <div className={style.navContainer}>
-        <div>
+        {location.pathname === "/" ? (
+          <div>
+            <ul className={style.list}>
+              <li className={style.navLink}>
+                <a href="#biografia">Biografía</a>
+              </li>
+              <li className={style.navLink}>
+                <a href="#propuestas">Propuestas</a>
+              </li>
+              <li className={style.navLink}>
+                <a href="#vecinos">Vecinos</a>
+              </li>
+              <li className={style.navLink}>
+                <a href="#novedades">Novedades</a>
+              </li>
+            </ul>
+          </div>
+        ) : (
           <ul className={style.list}>
             <li className={style.navLink}>
-              <a href="/#biografia">Biografía</a>
-            </li>
-            <li className={style.navLink}>
-              <a href="#propuestas">Propuestas</a>
-            </li>
-            <li className={style.navLink}>
-              <a href="#vecinos">Vecinos</a>
-            </li>
-            <li className={style.navLink}>
-              <a href="#novedades">Novedades</a>
+              <a href="/">Home</a>
             </li>
           </ul>
-        </div>
+        )}
         <RedesSociales />
       </div>
     </div>

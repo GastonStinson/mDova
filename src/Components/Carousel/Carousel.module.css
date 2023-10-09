@@ -1,13 +1,15 @@
 .carousel {
     display: flex;
     justify-content: center;
-    border: 1px solid blueviolet;
+    align-items: center;
     overflow: hidden;
     padding: 2rem;
+    margin: 1rem;
 }
 
 .cardsContainer {
     display: flex;
+    gap: 1rem;
 }
 
 .slide {
@@ -18,6 +20,7 @@
 .carousel button {
     border: none;
     background-color: inherit;
+    padding: 0;
 }
 
 .centerCard {
@@ -25,3 +28,21 @@
     /* Agrega otros estilos, como cambios en el fondo, bordes, etc., según tus preferencias */
 }
 
+@media screen and (max-width: 767px) {
+    .carousel {
+        width: 100%;
+        height: 40vh;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .cardsContainer {
+      width: 100%;
+      height: 100%;
+      align-items: center;
+    }
+
+    .centerCard {
+        transform: 0; 
+    }
+}

@@ -22,7 +22,7 @@ function Biografia() {
               Ciudad en un lugar mejor para vivir, con más trabajo, más segura,
               más accesible y sustentable.
             </p>
-            <h6>Acompañame, para seguir transformando Rio Cuarto!</h6>
+            <h6>Acompañame, para seguir transformando Río Cuarto!</h6>
           </div>
           <div className={style.socialContainer}>
             <span>Seguinos en Redes</span>

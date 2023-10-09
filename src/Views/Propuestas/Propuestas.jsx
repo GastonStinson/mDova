@@ -4,6 +4,7 @@ import CardPropuestas from "../../Components/CardPropuestas/CardPropuestas.jsx";
 import separadorNavBar from "./../../assets/separadorNavBar.png";
 import PortadaPropuestas from "./../../Components/PortadaPropuestas/PortadaPropuestas.jsx";
 import style from "./Propuestas.module.css";
+import Footer from "../../Components/Footer/Footer.jsx";
 
 function Propuestas() {
   return (
@@ -26,6 +27,7 @@ function Propuestas() {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

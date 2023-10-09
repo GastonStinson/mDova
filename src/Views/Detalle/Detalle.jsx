@@ -32,8 +32,10 @@ const Detalle = () => {
           ))}
         </ul>
       </div>
-      <h4>Otras Propuestas...</h4>
-      <Carousel />
+      <h4>Otras Propuestas</h4>
+      <div className={style.contenedorCarousel}>
+        <Carousel />
+      </div>
       <Footer />
     </div>
   );

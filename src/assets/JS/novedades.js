@@ -1,52 +1,45 @@
-import imagen1 from './../Novedades/acto.jpeg'
-import imagen2 from './../Novedades/mate.jpeg'
-import imagen3 from './../Novedades/merenderoAmor.jpeg'
-import imagen4 from './../Novedades/recorridoAlberdi.jpeg'
-import imagen5 from './../Novedades/acto.jpeg'
-import imagen6 from './../Novedades/acto.jpeg'
-import imagen7 from './../Novedades/acto.jpeg'
-import imagen8 from './../Novedades/acto.jpeg'
+// import imagen1 from './../Novedades/acto.jpeg'
+import imagen2 from './../Novedades/barrioQuintana.png'
+// import imagen3 from './../Novedades/reunionAlberdi.png'
+import imagen4 from './../Novedades/bandaNorte.jpeg'
+// import imagen5 from './../Novedades/tribunalCuentas.jpeg'
+import imagen6 from './../Novedades/recorridoAlberdi.jpeg'
 
 export const arrayNovedades = [
-    {
-        imagen: imagen1,
-        titulo: 'novedad 1',
-        cuerpo: 'Lorem ipsum dolor sit amet dsgal consectetur. Hendrerit magna congue tincidunt sed arcu mauris sagittis sit amet. Massa libero urna.'
-    },
+    // {
+    //     imagen: imagen1,
+    //     titulo: 'REVIVIMOS EL ACTO DEL #24A',
+    //     cuerpo: 'El pasado jueves presenté mi precandidatura a Intendente de la Ciudad de Río Cuarto.',
+    //     url: 'https://www.instagram.com/p/Cu-QcbyuDz8/?igshid=MzRlODBiNWFlZA=='
+    // },
     {
         imagen: imagen2,
-        titulo: 'novedad 2',
-        cuerpo: 'Lorem ipsum dolor sit amet dsgal consectetur. Hendrerit magna congue tincidunt sed arcu mauris sagittis sit amet. Massa libero urna.'
+        titulo: 'VISITAMOS EL BARRIO QUINTITAS GOLF',
+        cuerpo: 'Nos acercamos al sector Oeste de Río IV para escuchar propuestas y sugerencias de los ciudadanos. Destacaron...',
+        url: 'https://www.instagram.com/p/Cx8U2lCOWRS/?igshid=MzRlODBiNWFlZA=='
     },
-    {
-        imagen: imagen3,
-        titulo: 'novedad 3',
-        cuerpo: 'Lorem ipsum dolor sit amet dsgal consectetur. Hendrerit magna congue tincidunt sed arcu mauris sagittis sit amet. Massa libero urna.'
-    },
+    // {
+    //     imagen: imagen3,
+    //     titulo: 'CHARLA CON VECINOS DEL BARRIO ALBERDI',
+    //     cuerpo: 'Llegamos a compartir una tarde con los vecinos del sector para conversar sobre los avances y necesidades de Río IV.',
+    //     url: 'https://www.instagram.com/p/Cu-QcbyuDz8/?igshid=MzRlODBiNWFlZA=='
+    // },
     {
         imagen: imagen4,
-        titulo: 'novedad 4',
-        cuerpo: 'Lorem ipsum dolor sit amet dsgal consectetur. Hendrerit magna congue tincidunt sed arcu mauris sagittis sit amet. Massa libero urna.'
+        titulo: 'CAMINANDO POR BANDA NORTE',
+        cuerpo: ' En nuestra visita a los vecinos del sector coincidimos en la transformación histórica de Río Cuarto... ',
+        url: 'https://www.instagram.com/p/CvNzutOOZaF/?igshid=MzRlODBiNWFlZA=='
     },
-    {
-        imagen: imagen5,
-        titulo: 'novedad 5',
-        cuerpo: 'Lorem ipsum dolor sit amet dsgal consectetur. Hendrerit magna congue tincidunt sed arcu mauris sagittis sit amet. Massa libero urna.'
-    },
+    // {
+    //     imagen: imagen5,
+    //     titulo: 'PREMIOS NICOLÁS ANGEL FLORIO',
+    //     cuerpo: 'El Tribunal de Cuentas Municipal junto a CISPREN, Subsec. de Comunicación de la Municipalidad y las autoridades...',
+    //     url: 'https://www.instagram.com/p/Cu-QcbyuDz8/?igshid=MzRlODBiNWFlZA=='
+    // },
     {
         imagen: imagen6,
-        titulo: 'novedad 6',
-        cuerpo: 'Lorem ipsum dolor sit amet dsgal consectetur. Hendrerit magna congue tincidunt sed arcu mauris sagittis sit amet. Massa libero urna.'
-    },
-    {
-        imagen: imagen7,
-        titulo: 'novedad 7',
-        cuerpo: 'Lorem ipsum dolor sit amet dsgal consectetur. Hendrerit magna congue tincidunt sed arcu mauris sagittis sit amet. Massa libero urna.'
-    },
-    {
-        imagen: imagen8,
-        titulo: 'novedad 8',
-        cuerpo: 'Lorem ipsum dolor sit amet dsgal consectetur. Hendrerit magna congue tincidunt sed arcu mauris sagittis sit amet. Massa libero urna.'
-    },
-
+        titulo: 'RECORRIDO BARRIO ALBERDI CENTRO',
+        cuerpo: 'Paseamos por la calle Vicente López y Planes para encontrarnos con los vecinos, compartir unos mates y escuchar...',
+        url: 'https://www.instagram.com/p/Cu-QcbyuDz8/?igshid=MzRlODBiNWFlZA=='
+    }
 ]
