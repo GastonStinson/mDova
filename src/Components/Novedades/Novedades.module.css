@@ -7,9 +7,9 @@
     width: 100vw;
 }
 
-.mainContainer h3 {
+.mainContainer h2 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .cardContainer {
@@ -61,11 +61,11 @@
 
 @media screen and (max-width: 767px) {
     .mainContainer {
-      margin: 2rem 0rem;
+      margin: 2rem auto;
       width: 100%;
     }
   
-    .mainContainer h3{
+    .mainContainer h2{
       font-size: 2rem;
     }
 
@@ -73,6 +73,7 @@
       flex-direction: column;
       padding: 0;
       width: 100%;
+      margin: 2rem auto;
     }
 
     .cardContainer button{

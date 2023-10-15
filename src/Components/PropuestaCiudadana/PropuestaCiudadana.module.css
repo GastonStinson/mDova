@@ -75,6 +75,12 @@
     transform: scale(1.04);
 }
 
+@media (min-width: 767px) and (max-width: 1600px) {
+    .tarjetaPropuesta {
+        width: 78%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .contenedorColor {
         padding: 3rem;

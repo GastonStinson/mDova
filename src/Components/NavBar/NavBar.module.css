@@ -6,6 +6,7 @@
     padding: 0rem 5rem;
     width: 100%;
     height: 11vh;
+    border: 1px solid blueviolet;
 }
 
 .mainContainer a:link, a:visited, a:active {
@@ -16,6 +17,7 @@
 
 .navContainer ul {
     margin: 0;
+    
 }
 
 
@@ -38,12 +40,14 @@
     display: flex;
     align-items:center;
     gap: 1.5rem;
+    border: 1px solid blueviolet;
 }
 
 .list {
     display: flex;
     list-style: none;
     color: black;
+    border: 1px solid blueviolet;
 }
 
 .navLink {
@@ -53,6 +57,18 @@
     color: black;
 }
 
+@media (min-width: 767px) and (max-width: 1600px) {
+    .mainContainer {
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .navLink {
+        margin: 0rem 0.5rem;
+    }
+
+}
+
 @media screen and (max-width: 767px) {
     .navContainer {
         display: none;
@@ -60,6 +76,9 @@
 
     .mainContainer {
         justify-content: center;
-        margin-left: 1rem;
+    }
+
+    .contenedorImagen img {
+        margin-left: 0.8rem;
     }
 }

@@ -3,13 +3,18 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    padding: 2rem;
-    margin: 1rem;
+    padding: 2rem auto;
+    margin: 1rem auto;
+    width:  100vw; 
+    border: 1px solid blueviolet;
 }
 
 .cardsContainer {
     display: flex;
-    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem 1rem;
+    border: 1px solid blueviolet;
 }
 
 .slide {
@@ -20,12 +25,12 @@
 .carousel button {
     border: none;
     background-color: inherit;
+    border-radius: 2rem;
     padding: 0;
 }
 
 .centerCard {
     transform: scale(1.12); /* Aumenta el tamaño de la tarjeta del medio */
-    /* Agrega otros estilos, como cambios en el fondo, bordes, etc., según tus preferencias */
 }
 
 @media screen and (max-width: 767px) {
@@ -43,6 +48,6 @@
     }
 
     .centerCard {
-        transform: 0; 
+        transform: none; 
     }
 }

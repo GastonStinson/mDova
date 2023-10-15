@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Card({ id, imagen, titulo }) {
   return (
-    <div className={style.mainContainer}>
+    <div className={style.cardPropuesta}>
       <NavLink to={`/propuestas/${id}`}>
         <img src={imagen} alt="propuesta" />
         <div className={style.titleContainer}>

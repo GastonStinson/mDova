@@ -10,7 +10,7 @@ import Novedades from "../../Components/Novedades/Novedades";
 function Home() {
   return (
     <div className={style.contenedorHome}>
-      <img src={separadorNavBar} alt="sepNavBar" />
+      <img src={separadorNavBar} alt="sepNavBar" className="imgSepar" />
       <Portada />
       <Biografia />
       <Propuestas />

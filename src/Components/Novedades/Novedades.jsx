@@ -50,7 +50,7 @@ const Novedades = () => {
 
   return (
     <div className={style.mainContainer} id="novedades">
-      <h3>Novedades</h3>
+      <h2>Novedades</h2>
       <div className={style.cardContainer}>
         {/* <button onClick={handlePrev}>
           <svg
